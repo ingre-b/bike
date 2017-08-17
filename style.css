@@ -1,0 +1,692 @@
+body{
+    font-family: 'Droid Sans', sans-serif;
+}
+header{
+    height: 800px;
+    min-height: 200px;
+    background-image: url(images/bike.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    margin: auto;
+    padding-top: 36px;
+   
+}
+nav{
+    text-align:center;
+}
+
+nav ul li{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 13px;
+    font-weight: 600;
+    text-align:inherit;
+    cursor: pointer;
+}
+nav ul li img{
+    margin: 0px 64px;
+}
+nav ul .dot{
+    padding:0px 35px;
+}
+section1 .inner{
+    text-align: center;
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 80%;
+    max-width: 1600px;
+    padding: 117px 0 200px 0px;
+}
+section1 h1{
+    font-weight: 600;
+    padding: 37px 0px;
+    font-size: 18px;
+}
+section1 p{
+    line-height: 1.5;
+    color: #848789;
+    margin:auto;
+    font-size: 14px;
+    width: 80%;
+}
+section2{
+    display: flex;
+    margin: auto;
+    max-width: 1600px;  
+   
+}
+section2 .flex1{
+    -webkit-flex: 2;
+    flex: 2;
+    background-image: url(images/img01.png);
+    background-size: cover;
+    position: relative;
+}
+section2 .flex1 img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+section2 .vintageOliva{
+    flex: 1;
+    display: flex;
+    flex-direction: column; 
+}
+section2 .vintageOliva .flex2{
+    text-align: center;
+    padding: 50px;
+} 
+section2 .flex2 {
+    flex: 2;
+}
+section2 .flex3 img{
+    -webkit-flex: 1;
+    flex: 1;
+    display: block;
+  
+}
+.square{
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    transform: rotate(45deg);
+    text-align: center;
+    margin: auto;
+    margin-bottom: -5px;
+}
+section2 .vintageOliva h2{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 25px 0px;
+}
+.vintageOliva p{
+    font-size: 16px;
+    width: 80%;
+    margin: auto;
+    line-height: 1.8;
+    text-align: justify;
+     color: #848789;
+}
+hr{
+    color: #d7d7d7;
+    width: 10%;
+    margin-top: 44px;
+}
+section3{
+    display: flex;
+    margin: auto;
+    max-width: 1600px;
+}
+section3 .laBoriosa{
+    -webkit-flex: 1;
+    flex: 1;
+    
+}
+section3 .laBoriosa .flex2{
+    text-align: center;
+    padding: 50px;
+    
+    
+}
+
+section3 .laBoriosa .flex3 img{
+   display: block;
+     -webkit-flex: 1;
+    flex: 1;
+}
+section3 .flex1{
+    flex:2;
+    background-image: url(images/img03.png);
+    background-size: cover;
+    position: relative;
+}
+section3 .laBoriosa h2{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 25px 0px;
+}
+.laBoriosa p{
+    font-size: 16px;
+    width: 80%;
+    margin: auto;
+    line-height: 1.8;
+    text-align: justify;
+    color: #848789;
+    
+}
+section3 .flex1 img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.retroBike {
+    display: table;
+    
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+  
+}
+section4 .right{
+    background-image: url(images/bikeright.png);
+   display: table-cell;
+     background-size: cover;
+    position: relative;
+    
+}
+section4 .left{
+    background-image: url(images/imgleft.png);
+   display: table-cell;
+     background-size: cover;
+    position: relative;
+   
+   
+}
+section4 .left img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+section4 .center{
+   display: table-cell;
+    width: 33%;
+    text-align: center;
+    margin: 0 auto;
+    vertical-align:bottom;
+    padding-top: 50px;
+}
+section4 .center h2{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px 0px;
+    text-transform: capitalize;
+    
+}
+
+section4 .center p{
+    font-size: 16px;
+    width: 80%;
+    margin: auto;
+    line-height: 1.8;
+    text-align: justify;
+    color: #848789;
+
+}
+section4 .center .mavic img{
+    vertical-align: bottom;
+    display: block;
+    padding-top: 48px;
+
+}
+section5 {
+    text-align: center;
+    margin: auto;
+    box-sizing: content-box;
+    width: 100%;
+    max-width: 1600px;
+    
+}
+section5 .inner{ 
+    text-align: center;
+    margin: auto;
+    box-sizing: border-box;
+    width: 80%;
+    max-width: 1600px;
+    padding: 117px 0 200px 0px;
+}
+
+section5 .inner img{
+    padding-top: 50px;
+}
+section5 h2{
+    font-weight: 600;
+    padding: 37px 0px;
+    font-size: 18px;
+}
+section5 p{
+    line-height: 1.5;
+    color: #848789;
+    margin:auto;
+    font-size: 24px;
+    width: 80%;
+    font-style: italic; 
+}
+section5 .swipe{
+    padding: 100px 0px 68px 0px;
+}
+section5 h2 span{
+    color: #939698;
+    font-weight: 100;
+}
+section6 .inner{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    max-width: 1600px;
+    margin: auto;
+    justify-content: center;
+    font-size: 0px;
+}
+.inner .left {
+    width: 33%;
+    
+}
+.inner .left .top{
+    display: inline-flex;
+     
+    position: relative;
+}
+.inner .left .top img{
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.inner .middle{
+    display: inline-flex;
+ 
+    
+}
+.inner .middle .left1 img{
+    display: block;
+    position: relative;
+    height: 100%;
+}
+.inner .middle .right img{
+    display: block;
+    position: relative;
+    height: 100%;
+}
+.inner .right3 .rightBottom img{
+    position: relative;
+    overflow:auto;
+    vertical-align: bottom;
+    display: block;
+    height: 350px;
+    
+}
+.inner .right3 .rightBottom{
+    display: inline-flex;
+
+    
+}
+.inner .right3{
+    width: 33%;
+    height: 100%;
+}
+section7 .shop{
+    width: 100%;
+    max-width: 1600px;
+    margin: auto;
+    text-align: center;
+    background-color: #282f35;
+}
+.button {
+    display: inline-block;
+    background-color:#282f35;
+    padding: 20px 60px;
+    color:#ffffff;
+    font-weight:500;
+    border: 1px solid #94979a;
+    text-decoration: none;
+    margin: 75px 0px;
+}
+section8 .inner{
+    width: 100%;
+    max-width: 1600px;
+    margin: auto;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 108px 0px 112px 0px;
+}
+section8 .inner h2{
+    color: #848789;
+    font-size: 24px;
+    padding: 35px;
+    font-style: italic;
+}
+section8 .inner .inputWrapper input{
+    width: 33%;
+    margin: auto;
+    text-align: left;
+    color: #dbdbdb;
+    padding: 25px;
+    box-sizing: border-box;
+    border-color: #d3d7d9;
+}
+section8 .inner .button2{
+    background-color: #64c29e;
+    color: #ffffff;
+    padding: 24px 45px 26px 45px;
+    font-size: 
+}
+
+footer .inner{
+    width: 100%;
+    max-width: 1600px;
+    margin: auto;
+    text-align:center;
+    background-color: #f7f7f7;
+    padding: 100px 0px;
+}
+footer .inner .left{
+    float: left;
+    display: inline-block;
+    width: 40%;
+    text-align: left;
+    color: #848789;
+    box-sizing: border-box;
+    padding-left: 70px;
+}
+footer .inner .left h2{
+    font-size: 16px;
+    font-weight: 600;
+}
+footer .inner .left p{
+    font-size: 14px;
+    font-style: italic;
+}
+footer .inner .right{
+    float: right;
+    display: inline-block;
+    width: 40%;
+    color: #848789;
+    font-size: 14px;
+    font-style: italic;
+}
+footer .inner .right img {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 8px;
+}
+footer .inner .icons {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: content-box;
+    width: 20%;
+}
+footer .inner .icons img{
+    padding-right: 10px;
+}
+.mobileMenu{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 250px;
+    height: 100%;
+    display: none;
+}
+.mobileMenu li{
+    padding: 15px 20px;
+}
+.sandwich {
+    vertical-align: middle;
+    display: none;
+}
+
+@media (min-width: 667px) and (max-width: 1023px) {
+    header nav ul li{
+        display: none;
+    }
+    header nav ul li img{
+        float: left;
+        display:  inline-block;
+    }
+    .sandwich {
+        display: inline-block;
+        
+    }
+    
+    body{
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    header {
+   
+        width: 100vw;
+        background-position:top;
+        background-size: cover;
+        max-height: 50vw;
+        
+    }
+    section1 .inner{
+        padding: 0px;
+        margin: 30px auto;
+        
+    }
+    section1 p{
+        width: 80vw;
+       
+       
+    }
+    section2 .flex1{
+        height:400px;
+         width: 100vw;
+}
+    section2{
+        flex: none;
+        display: block;
+         width: 100vw;
+    }
+    section2 .vintageOliva .flex2{
+        padding: 10px;
+    }
+    
+    section2 .flex3 img{
+         width: 100vw;
+    }
+    section3 .flex1{
+        height: 300px;
+        width: 100%;
+        background-size: cover;
+}
+    section3{
+        flex: none;
+        display: block;
+        width:100vw;
+    }
+    section3 .laBoriosa .flex3 img{
+        width: 100vw;
+        margin: 0px;
+        margin-right: -5px;
+    }
+    section3 .laBoriosa .flex2 {
+        padding: 10px;
+    }
+    section4 .left{
+        display: block;
+        background-size: cover;
+        width: 100%;
+        height: 400psex;
+    }
+    section4 .center {
+        display: block;
+        padding: 10px;
+        width: 100%;
+        height: 400px;
+    }
+    section4 .mavic img{
+        width: 100vw;
+        margin-left: -10px;
+    }
+    section5 .inner{
+        display: block;
+        width: 100%;
+        padding-bottom: 15px;
+        
+    }
+    section5 .inner p{
+        font-size: 18px;
+    }
+    section5 .inner .swipe{
+        margin: 0px;
+        padding: 0px;
+    }
+    section6 .inner{
+        width: 100%;
+        display: block;
+    }
+    section6 .inner .left{
+        display: block;
+        width: 100vw;
+        
+    }
+    section6 .inner .left .top img{
+        display: inline-flex;
+        width: 100vw;
+        height: 100%;
+        
+    }
+    section6 .inner .left .bottom img{
+        display: block;
+        width: 100%;
+        height: 100%;
+        
+    }
+    section6 .inner .middle img{
+        display: inline-flex;
+        width: 100vw;
+        height: 100%;
+    }
+    section6 .inner .right3 {
+        display: block;
+         width: 100vw;
+        height: 100%;
+        margin: 0px;
+        
+    }
+    section6 .inner .right3 .rightBottom img{
+        display: inline-flex;
+        width: 100vw;
+        height: 100%;
+    }
+    section6 .inner .right3 .rightTop img{
+        display:block;
+        width: 100vw;
+        height: 100%;
+    }
+    section7 .shop{
+       width: 100%;
+    }
+     
+    
+}
+
+@media (min-width: 667px)
+{
+/*TIK PLANSETEM*/
+}
+
+@media (max-width: 667px)
+    /*TIK TELEFONAM*/
+    /*
+{
+    header nav {
+        margin-bottom: 60px;
+    }
+    header {
+        padding-bottom: 80px;
+    }
+    section {
+        padding: 60px 0px;
+    }
+    section .inner .third{
+        display: block;
+        width: 100vw;
+
+        margin: 0px 0px 50px 0px !important;
+    }
+    .cta .inner .leftSide{
+        display: block;
+        margin-bottom: 30px;
+    width: 100vw;        text-align: center;
+        padding: 0px;
+    }
+    .cta .inner .rightSide{
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+    footer{
+        padding-top: 0px;
+        
+    }
+    footer .footerBottom {
+        margin-top: 0px;
+        border: none;
+    }
+}
+    */
+    
+    
+/*section6 .inner{
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    font-size: 0px;
+    display: inline-block; 
+    vertical-align: middle;
+}
+section6 .left{
+    display: inline-block; 
+}
+section6 .left .top{
+    display: flex;
+    justify-content: center;
+}
+section6 .middle{
+    display: inline-flex;
+    width: 33%;
+}
+
+
+section6 .right3{
+    display: inline-block;
+    width: 33%;
+}
+section6 .right3 .rightBottom{
+    display: flex;
+    justify-content: center;
+}*/
+
+/*section6 .inner .left{
+    display: table-cell;
+    width: 33%;
+    text-align: center;
+     margin: 0 auto;
+    vertical-align:bottom;
+    padding-top: -50%;
+}
+
+section6 .inner .left .top{
+    display: inline-block;
+}
+ 
+   
+}
+section6 .inner .middle{
+ 
+    display: inline-block;
+    vertical-align: middle;
+   background-size: cover;
+    position: relative;
+    
+}
+section6 .inner .middle{
+    display: inline-block;
+    width: 33%;
+}
+.inner .right2{
+    display: inline-block;
+    width: 33%;
+   
+ 
+    position: relative;
+    
+}*/
